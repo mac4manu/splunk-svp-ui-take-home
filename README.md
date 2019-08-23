@@ -7,8 +7,15 @@ and is designed as a step whilst interviewing for the SVP Team at Splunk.
 
 1. Clone/fork this repo locally
 2. Start this app by running `docker-compose up` (install Docker if needed)
-3. Create the app specified in `spec.pdf`
+3. Create the app specified in `spec.pdf` and from the "What do I do?" section below
 4. When finished, open a pull request with your changes
+
+### What do I do?
+
+- Create a simple 1-page app using this repo that renders sample logs from a hypothetical service.
+- Spend no more than 1 hour completing the project.
+- Open `spec.pdf` for a wireframe mock of what you should build, along with notes and how it should work.
+- `logs.json` should be used to substitute an external API call, and represents mock Splunk logs.
 
 ## Available Scripts
 

@@ -96,7 +96,7 @@
       "line.data.osName": "Other 0.0.0",
       "line.data.path": "/api/v2/healthcheck",
       "line.data.response_time": "0.002",
-      "line.data.status": "200",
+      "line.data.status": "400",
       "line.data.ua": "Other 0.0.0",
       "line.data.username": "",
       "line.level": "INFO",
