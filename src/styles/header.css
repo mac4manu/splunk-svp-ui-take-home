@@ -1,0 +1,11 @@
+.slv-header {
+  border-bottom: 1px solid #ddd;
+  padding: 0.6em;
+  background: #222;
+  color: #fff;
+}
+
+.slv-header .slv-title {
+  font-weight: 400;
+  letter-spacing: 2px;
+}

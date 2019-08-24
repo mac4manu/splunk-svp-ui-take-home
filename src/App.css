@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.search-input {
+  width: 450px;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid midnightblue;
+}
+
+.btn-action {
+  width: 150px;
+  height: 40px;
+  background: #3f51b5;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

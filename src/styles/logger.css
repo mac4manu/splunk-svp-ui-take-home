@@ -1,0 +1,17 @@
+.log-wrapper {
+  margin: 1em;
+  background: whitesmoke;
+  padding: 1em;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+.succes-log {
+  background: lightgreen;
+}
+
+.error-log {
+  background: orangered;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+.log-wrapper-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.log-wrapper-child > div {
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  text-align: left;
+  font-size: 0.8em;
+}
+@media only screen and (min-width: 900px) {
+  .log-raw-data {
+    flex: 0 0 75em;
+  }
+}
+
+.log-wrapper-child > div:last-child {
+  border: 0px;
+  padding: 1em;
+}
+
+.log-wrapper-child > div > label {
+  padding-bottom: 1em;
+  font-weight: bold;
+  display: inline-block;
+}
