@@ -3,6 +3,7 @@ import logspayload from "../logs.json";
 import "../styles/logger.css";
 import LogItem from "./LogItem.jsx";
 import { Link } from "react-router-dom";
+import uuid from "uuid";
 
 class LoggerViewerComponent extends Component {
   state = {
@@ -77,10 +78,10 @@ class LoggerViewerComponent extends Component {
             <p>
               Logs for sample application (fetched via api call to logs.json)
             </p>
-            {this.state.logs.map((res, index) => (
+            {this.state.logs.map(res => (
               <LogItem
-                key={index}
-                classname={this.getClassName(res)}
+                key={uuid()}
+                className={this.getClassName(res)}
                 logPayload={res}
               />
             ))}
